@@ -1,0 +1,86 @@
+a:hover
+{
+    background-color:white;
+    color:black;
+}
+     * {
+        box-sizing: border-box;
+    }
+    body {
+        padding:5%;
+    }
+    .name {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: black;
+        font-family: cursive;
+    }
+    h3{
+        color:white;
+        padding-left: 30px;
+        
+    }
+    
+      .navlink {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;        }
+   .navlink a{
+        text-decoration: none;
+        font-size:20px;
+        padding-right: 30px;
+        font-family:cursive;
+        color:white
+    }
+    .vission {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        background-color: green;
+        text-align: center;
+        margin-top: 70px;
+    }
+    @media only screen and (max-width: 768px)
+    {
+        .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: black;
+        font-family: cursive;
+        }
+      .navlink {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background-color: lightpink;
+        padding: 10px;
+        
+        }
+        
+        .navlink a{
+        text-decoration: none;
+        font-size:20px;
+        padding: 5px;
+        width:100%;
+        text-align: center;
+        font-family:cursive;
+        border-bottom: 1px solid black;
+      }
+      h3{
+          padding-left: 0%;
+      }
+    } 
+</style>

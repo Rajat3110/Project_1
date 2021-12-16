@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    padding: 10px;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    font-family: cursive;
+}
+h3{
+    color:white;
+    padding-left: 30px;
+    
+}
+
+  .navlink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;        }
+.navlink a{
+    text-decoration: none;
+    font-size:20px;
+    padding-right: 30px;
+    font-family:cursive;
+    color:white
+}
+a:hover
+{
+    background-color:white;
+    color:black;
+}
+.tes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.second {
+    display: flex;
+    flex-direction: row;
+    padding: 1px 15%;
+    justify-content: space-evenly;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    padding:20px 0%;
+    
+}
+.imag img{
+    padding: 10px;
+}
+.first {
+     text-align: center;
+     font-color: green;
+}
+.p {
+    padding:0% 130px;
+}
+#headi {
+    text-align: center;
+    font-family: cursive;
+    font-size: 35px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+}
+.sec img {
+    border:2px solid black;
+    height: 100px;
+    width:100px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+}
+.footer{
+    background-color: green;
+    text-align: center;
+    margin-top: 70px;
+}
+@media only screen and (max-width: 768px)
+{
+    .sec img{
+            width:200px;
+            height:200px
+    }
+    .sec label {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .second {
+        align-items: center;
+    }
+    .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    font-family: cursive;
+    }
+    h3 {
+        padding: 0%;
+    }
+  .navlink {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: lightpink;
+    padding: 10px;
+    
+    }
+    .p {
+    padding:0% 30px;
+}
+    .navlink a{
+    text-decoration: none;
+    font-size:20px;
+    padding: 5px;
+    width:100%;
+    text-align: center;
+    font-family:cursive;
+    border-bottom: 1px solid black;
+  }   
+
+    .second {
+        flex-direction: column;
+    }
+    
+}
