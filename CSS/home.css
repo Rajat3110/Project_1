@@ -76,6 +76,10 @@ a:hover
     height: 100px;
     width:100px;
 }
+#second{
+    display:none;
+}
+
 .second{
     display: flex;
     flex-direction: row;
@@ -87,6 +91,20 @@ a:hover
 }
 @media only screen and (max-width: 768px)
 {
+    #second{
+        display: block;
+    }
+    #btn{
+        width: 100%;
+        height: 100%;
+    }
+    #first{
+        display:flex;
+        flex-direction: row;
+        height: 100%;
+        width:100%;
+        justify-content: space-between;
+    }
     .sec img{
             width:200px;
             height:200px
@@ -110,7 +128,7 @@ a:hover
         padding: 0%;
     }
   .navlink {
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;

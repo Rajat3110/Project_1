@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 body {
@@ -81,6 +81,164 @@ a:hover
     font-size: 25px;
     border:1px solid black;
 }
+}
+
+.start {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.start img {
+    width: -webkit-fill-available;
+    height: auto;
+}
+.fir {
+    padding: 10px;
+}
+.navd {
+    padding-top: 10px;
+}
+.navd img {
+        padding-left: 15px;
+        width: 38px;
+        height: 30px;
+}
+.sec label {
+    padding: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.dir li{
+    padding:4px;
+    font-size: 25px;
+
+}
+.step li{
+    padding: 10px;
+    font-size: 25px;
+}
+.text1{
+    padding: 0% 10px;
+}
+.text1 p{
+    font-size: 20px;
+}
+.text2 p{
+    font-size: 20px;
+}
+.text2 {
+    padding: 0% 10px;
+}
+.footer{
+    background-color: green;
+    text-align: center;
+    margin-top: 70px;
+}
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    padding:5%;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    font-family: cursive;
+}
+h3{
+    color:white;
+    padding-left: 30px;
+    
+}
+a:hover
+{
+    background-color:white;
+    color:black;
+}
+
+#second{
+    display:none;
+}
+  .navlink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;        }
+.navlink a{
+    text-decoration: none;
+    font-size:20px;
+    padding-right: 30px;
+    font-family:cursive;
+    color:white
+}
+
+@media only screen and (max-width: 768px)
+{
+    #second{
+        display: block;
+    }
+    #btn{
+        width: 100%;
+        height: 100%;
+    }
+    #first{
+        display:flex;
+        flex-direction: row;
+        height: 100%;
+        width:100%;
+        justify-content: space-between;
+    }
+    .first{
+        display: flex;
+        flex-direction: row;
+    }
+    .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    font-family: cursive;
+    }
+  .navlink {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: lightpink;
+    padding: 10px;
+    
+    }
+    h3{
+        padding: 0%;
+    }
+    .navlink a{
+    text-decoration: none;
+    font-size:20px;
+    padding: 5px;
+    width:100%;
+    text-align: center;
+    font-family:cursive;
+    border-bottom: 1px solid black;
+  }
+  .dir li{
+    list-style-type: none;
+    background-color:skyblue;
+    font-size: 25px;
+    border: 1px solid black;
+    
+    }
+    .step li{
+    list-style-type: none;
+    background-color: skyblue;
+    font-size: 25px;
+    border:1px solid black;
+}
+
 }
 
 .start {
